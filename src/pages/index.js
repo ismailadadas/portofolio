@@ -211,12 +211,12 @@ const IndexPage = () => {
     <Layout>
       <div className="flex-1 flex flex-col justify-center bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
         {/* Wave Background */}
-        <div className="absolute bottom-0 left-0 right-0 h-1/2">
+        <div className="absolute bottom-0 left-0 right-0 h-[50vh]">
           <Wave
             fill='#3b82f6'
             paused={false}
             options={{
-              height: 20,
+              height: 80,
               amplitude: 30,
               speed: 0.15,
               points: 3
@@ -227,7 +227,7 @@ const IndexPage = () => {
             fill='#2563eb'
             paused={false}
             options={{
-              height: 20,
+              height: 60,
               amplitude: 20,
               speed: 0.2,
               points: 2
@@ -238,7 +238,7 @@ const IndexPage = () => {
             fill='#1d4ed8'
             paused={false}
             options={{
-              height: 20,
+              height: 40,
               amplitude: 15,
               speed: 0.25,
               points: 2
